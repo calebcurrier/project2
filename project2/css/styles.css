@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 769px) {
+  .container {
+    max-width: 1000px;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  background: lightgrey;
+}
+
+.portfolio {
+background: white;
+}
+
+.student-name {
+padding-top: 50px;
+padding-right: 800px;
+font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+padding-left: 1000px;
+padding-bottom: 20px;
+padding-right: 40px;
+  margin: 0 auto;
+}
+
+.profile-image {
+padding-left: 900px;
+}
+
+.h2portfolio {
+  padding-left: 500px;
+}
+
+.gallery1 {
+  display: inline-grid;
+}
+
+.gallery2 {
+  display: inline-block;
+}
